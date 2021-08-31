@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>Welcome</title>
+        <script src="channel_list.js"></script>
+        <style>
+            body{
+                margin:0;
+                padding:0;
+                border:0;
+                outline:0;
+                font-size:100%;
+                vertical-align:baseline;
+            }
+            .main{
+                background-color:rgba(15, 6,23, 1) ;
+                padding:20px;
+                display: block;
+                text-align: center;
+            }
+            .channel{
+                height:100px;
+                width:200px;
+                margin: 10px;
+                overflow: hidden;
+                background: rgb(29,30,36);
+                color: white;
+                border-radius: 5px;
+                padding-top: 25px;
+                display: inline-block;
+            }
+            .channel > img{
+                top:0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                height:90px;
+                width: 174px;
+            }
+            .channel:hover{
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="main" id="ch_list">
+            
+        </div>
+    </body>
+</html>
