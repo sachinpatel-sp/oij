@@ -2,7 +2,7 @@ const api_url =
   "https://sgdccdnems03.cdnsrv.jio.com/jiotv.data.cdn.jio.com/apis/v1.3/getMobileChannelList/get/?langId=6&os=android&devicetype=phone&usergroup=tvYR7NSNn7rymo3F&version=6.0.8&langId=6";
 
 async function view(id) {
-     const m3u8 = "https://snehott.in1.bitmana.io/jiotv/play.php?c=" + id ;
+     const m3u8 = "https://snehapi-march.in1.bitmana.io/jioapi/tsjio1200/"+id+".m3u8";
      console.log(m3u8);
   window.open(m3u8, "_parent");
 }
